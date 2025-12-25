@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teacher2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo-container">
+            <div class="logo"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="logo-text">أكاديمية اتقان </div>
+        </div>
+        
+        <div class="user-profile">
+            <div class="user-avatar">م</div>
+            <div class="user-info">
+                <h3>المعلم </h3>
+                <p>مطور ومحاضر برمجة</p>
+            </div>
+            <div class="notification-icon">
+                <i class="fas fa-bell"></i>
+            </div>
+        </div>
+    </header>
+    
+    
+    <main class="main-content">
+        
+        <section class="welcome-section">
+            <h1>مرحباً أستاذ </h1>
+            <p>هذه نظرة عامة على طلابك في أكاديمية اتقان </p>
+        </section>
+        
+        
+        <section class="students-section">
+            <div class="section-header">
+                <h2>قائمة الطلاب المسجلين</h2>
+                <div>
+                    <button class="btn" id="addStudentBtn">إضافة طالب جديد</button>
+                    <button class="btn btn-success">تصدير القائمة</button>
+                </div>
+            </div>
+            
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>اسم الطالب</th>
+                        <th>البريد الإلكتروني</th>
+                        <th>الدورة المسجل فيها</th>
+                        <th>مستوى الخبرة</th>
+                        <th>الحالة</th>
+                        <th>الإجراءات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>محمد علي <span class="badge badge-blue">جديد</span></td>
+                        <td>mohamed@example.com</td>
+                        <td>تطوير الويب باستخدام JavaScript</td>
+                        <td><span class="badge badge-green">مبتدئ</span></td>
+                        <td><span class="status status-active">نشط</span></td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="action-btn view"><i class="fas fa-eye"></i></button>
+                                <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>سارة أحمد <span class="badge badge-blue">جديد</span></td>
+                        <td>sara@example.com</td>
+                        <td>برمجة بايثون للمبتدئين</td>
+                        <td><span class="badge badge-teal">متوسط</span></td>
+                        <td><span class="status status-active">نشط</span></td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="action-btn view"><i class="fas fa-eye"></i></button>
+                                <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>يوسف خالد</td>
+                        <td>yousef@example.com</td>
+                        <td>تطوير تطبيقات React المتقدمة</td>
+                        <td><span class="badge badge-blue">متقدم</span></td>
+                        <td><span class="status status-pending">بانتظار السداد</span></td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="action-btn view"><i class="fas fa-eye"></i></button>
+                                <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>فاطمة حسن</td>
+                        <td>fatima@example.com</td>
+                        <td>قواعد البيانات باستخدام SQL</td>
+                        <td><span class="badge badge-green">مبتدئ</span></td>
+                        <td><span class="status status-active">نشط</span></td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="action-btn view"><i class="fas fa-eye"></i></button>
+                                <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>خالد عمرو</td>
+                        <td>khaled@example.com</td>
+                        <td>تطوير الويب باستخدام JavaScript</td>
+                        <td><span class="badge badge-teal">متوسط</span></td>
+                        <td><span class="status status-active">نشط</span></td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="action-btn view"><i class="fas fa-eye"></i></button>
+                                <button class="action-btn edit"><i class="fas fa-edit"></i></button>
+                                <button class="action-btn delete"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div style="margin-top: 20px; text-align: center;">
+                <p>إجمالي الطلاب: <strong>5</strong> طلاب | الطلاب النشطين: <strong>4</strong> | الطلاب الجدد: <strong>2</strong></p>
+            </div>
+        </section>
+    </main>
+    
+    
+    <footer>
+       <p>اكادميه اتقان اكادميه مصريه </p>
+    </footer>
+    
+                       
+
+
+
+
+
+
+    
+
+</body>
+<script src="teacher2.js"></script>
+</html>

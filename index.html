@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mohamed.css">
+   <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+/>
+</head>
+<body>
+    
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+              <i class="fa-solid fa-laptop-code"></i>
+                 <h1>اكادمية اتقان </h1>
+            </div>
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    
+                    
+                </ul>
+            </nav>
+             <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">تسجيل دخول</a>
+                 <a href="signup.html" class="btn btn-primary">انضم الينا </a>
+             </div>
+        
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+</header>
+ 
+<section class="hero" id="main">
+    <div class="continer">
+        <h2>بوابتك الي عالم المعرفه و التفوق</h2>
+        <p>انضم الي الاف الطلاب حول العالم و ابدا رحلتك التعلميه مع افضل المدربين و الخبراء في مجال الحاسب </p>
+         <div class="search-box">
+            <input type="text" placeholder="ابحث عن الكورس الذي تريد">
+            <button onclick="go()"><i class="fa-solid fa-magnifying-glass">بحث</i></button>
+         </div>
+        
+    </div>
+</section>
+
+<section class="courses" id="cor">
+    <div class="continer">
+        <div class="section-header">
+            <h2>الكورسات الشائعه</h2>
+            <p>اكتشف مجموعه متنوعه من الكورسات المصممه خصيصا لتطوير مهاراتك</p>
+        </div>
+    </div>
+
+    <div class="courses-grid">
+        <div class="course-card" onclick="go()">
+           <img src="altumcode-PNbDkQ2DDgM-unsplash.jpg" alt="">
+           <div class="course-content">
+            <span class="course-category">برمجه</span>
+            <h3 class="course-title">تطوير الويب الشامل </h3>
+            <p>  تعلم Java script ,html , css وانشاء تطبيقات ويب تفاعليه </p>
+            <div class="course-info">
+                <span><i class="fa-regular fa-clock"></i> 30 ساعه</span>
+                <span><i class="fa-solid fa-user"></i> 350 طالب</span>
+            </div>
+            <div class="course-footer">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>(0.4)</span>
+                </div>
+                <div class="price">$49.99</div>
+            </div>
+           </div>
+        </div>
+          
+<div class="course-card" ondblclick="go()">
+    <img src="lukas-blazek-mcSDtbWXUZU-unsplash.jpg" alt="">
+<div class="course-content">
+    <span class="course-category">علوم البيانات</span>
+    <h3 class="course-title">  python التحليل الاحصائي باستخدام </h3>
+    <p>اساسيات الاحصاء و تحليل البيانات باستخدام مكتبات بايثون</p>
+    <div class="course-info">
+        <span><i class="fa-regular fa-clock"></i>30 ساعه</span>
+        <span><i class="fa-solid fa-user"> 280 طالب</i></span>
+    </div>
+    <div class="course-footer">
+        <div class="rating">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star-half"></i></span>
+            <span>(4.5)</span>
+        </div>
+        <div class="price">$59.99</div>
+    </div>
+     </div>
+</div>
+
+<div class="course-card" onclick="go()">
+    <img src="igor-omilaev-eGGFZ5X2LnA-unsplash.jpg" alt="">
+    <div class="course-content">
+        <span class="course-category">برمجه الذكاء الاصطناعي</span>
+        <h3 class="course-title">برمجه الذكاء الصطناعي بواسطه  python</h3>
+        <p></p>
+        <div class="course-info">
+            <span><i class="fa-regular fa-clock"></i> 35 ساعه</span>
+            <span><i class="fa-solid fa-user"></i> 420 طالب</span>
+        </div>
+        <div class="course-footer">
+            <div class="rating">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                  <span>(5.0)</span>
+        </div>
+         <div class="price">$44.99</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</section>
+
+
+ <section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <i class="fa-solid fa-user"></i>
+                <div class="stat-number">15,000+</div>
+                <div class="stat-text">طالب مسجل</div>
+            </div>
+           <div class="stat-item">
+            <i class="fa-solid fa-book-open"></i>
+            <div class="stat-number">250+</div>
+            <div class="stat-text">كورس متاح </div>
+           </div>
+           <div class="stat-item">
+          <i class="fa-solid fa-chalkboard-user"></i>
+            <div class="stat-number">120+</div>
+            <div class="stat-text">مدرب محترف</div>
+           </div>
+           <div class="stat-item">
+            <i class="fa-duotone fa-solid fa-award"></i>
+            <div class="stat-number">98%</div>
+            <div class="stat-text">رضا العملاء</div>
+           </div>
+
+        </div>
+    </div>
+ </section>
+
+
+
+<section class="features">
+    <div class="container">
+        <div class="section-header">
+            <h2>لماذا تختار اكادميه اتقان</h2>
+            <p>نقدم لك تجربه تعليميه فريده تجمع بين الجوده و المرونه </p>
+        </div>
+
+         <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>تعلم في اي وقت </h3>
+                <p>الوصول الي المحتوي التعليمي في اي وقت و من اي مكان يناسبك </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>شهادات معتمده </h3>
+                <p>احصل علي شهادات معتمده بعد اتمام كل الكورس بنجاح </p>
+            </div>
+
+              <div class="feature-card">
+                <i class="fa-solid fa-headset"></i>
+                <h3>دعم فني مستمر </h3>
+                <p>فريق دعم فني متاح علي مدار الساعه لمساعدتك في رحلتك التعلميه </p>
+              </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h3>مدربون محترفون </h3>
+                    <p>تعلم من افضل الخبراء و المتخصصين في مختلف المجالات</p>
+                </div>
+                   
+         </div>
+    </div>
+</section>
+
+<section class="testimonials" id="md">
+<div class="container">
+    <div class="section-header">
+        <h2>اراء طلابنا </h2>
+        <p>انظر ماذا يقول طلابنا عن تجربتهم مع اكادمية اتقان</p>
+    </div>
+
+    
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>لقد غيرت هذه الاكاديميه مساري المهني تماما الكورسات كانت شامله و المدربون كانو محترفين للغايه</p>
+            </div>
+
+            <div class="testimonial-author">
+                <img src="aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="">
+            </div>
+           <div>
+             <h4>ساره احمد</h4>
+            <p>مطوره ويب</p>
+           </div>
+        </div>
+    </div>
+
+<div class="testimonial-card">
+    <div class="testimonial-content">
+        <p>افضل منصه تعلميه عبر الانترنت المحتوي منظم جدا و التمارين التفاعليه ساعدتني كثيرا في فهم المواد</p>
+    </div>
+    <div class="testimonial-author">
+        <img src="christian-buehner-DItYlc26zVI-unsplash.jpg" alt="">
+        <div>
+            <h4>محمد خالد</h4>
+            <p>محلل بيانات</p>
+        </div>
+    </div>
+</div>
+
+<div class="testimonial-card">
+    <div class="testimonial-content">
+        <p>لقد حاولت مع العديد من المنصات التعلميه لكن اكادمية اتقان كانت الافضل من حيث الجوده و السعر </p>
+    </div>
+    <div class="testimonial-author">
+        <img src="sarah-khan-2CBr8CB93HQ-unsplash.jpg" alt="">
+        <div>
+            <h4>فاطمه السعدي </h4>
+         <p>مطوره برامج </p>
+        </div>
+    </div>
+      </div>
+</div>
+</section>
+
+<footer>
+
+<p>اكادمية اتقان</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="mohamed.js"></script>
+</html>
